@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>软件导航</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,sans-serif;}
+body{
+    background:#f0f4f8;
+    padding:24px 16px;
+}
+.container{
+    max-width:600px;
+    margin:0 auto;
+    gap:12px;
+    display:grid;
+}
+.row-two{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:12px;
+}
+.item{
+    background:#ffffff;
+    padding:16px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 2px 8px #00000011;
+    min-height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.item-full{
+    background:#ffffff;
+    padding:16px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 2px 8px #00000011;
+    min-height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+a{
+    font-size:17px;
+    color:#2563eb;
+    text-decoration:none;
+}
+a:active{
+    color:#1d4ed8;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <!-- 第一行 -->
+    <div class="row-two">
+        <div class="item">
+            <a href="https://weixin.qq.com/cgi-bin/readtemplate?t=win_weixin" target="_blank">电脑版微信下载</a>
+        </div>
+        <div class="item">
+            <a href="https://web.wechat.com" target="_blank">网页版微信</a>
+        </div>
+    </div>
+
+    <!-- 第二行 -->
+    <div class="item-full">
+        <a href="https://im.qq.com/pcqq/" target="_blank">电脑版QQ下载</a>
+    </div>
+
+    <!-- 第三行 长条 抖音网页版 -->
+    <div class="item-full">
+        <a href="https://www.douyin.com" target="_blank">抖音网页版</a>
+    </div>
+
+    <!-- 第四行 长条 快手网页版 -->
+    <div class="item-full">
+        <a href="https://www.kuaishou.com" target="_blank">快手网页版</a>
+    </div>
+
+    <!-- 第五行 -->
+    <div class="row-two">
+        <div class="item">
+            <a href="https://app.bilibili.com/" target="_blank">B站电脑版下载</a>
+        </div>
+        <div class="item">
+            <a href="https://www.bilibili.com" target="_blank">B站网页版</a>
+        </div>
+    </div>
+
+    <!-- 第六行 长条 PCL启动器 -->
+    <div class="item-full">
+        <a href="https://pcl2.la/" target="_blank">PCL2启动器下载</a>
+    </div>
+</div>
+</body>
+</html>
